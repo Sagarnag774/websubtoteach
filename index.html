@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawKind - Adopt, Love, and Care</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>PawKind</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><a href="care-tips.html">Care Tips</a></li>
+                    <li><a href="success-stories.html">Success Stories</a></li>
+                    <li><a href="shelters.html">Find Shelters</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Adopt, Love, and Care</h2>
+            <p>At PawKind, we believe every animal deserves a loving home. Join us in our mission to provide shelter, care, and forever families for pets in need.</p>
+            <a href="adoption.html" class="cta-button">Find Your New Best Friend</a>
+        </div>
+    </section>
+
+    <!-- Featured Pets -->
+    <section class="featured-pets">
+        <div class="section-title">
+            <h2>Featured Pets</h2>
+        </div>
+        <div class="adoption-cards">
+            <!-- Pet Card 1 -->
+            <div class="pet-card">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=662&q=80" alt="Golden Retriever" class="pet-image">
+                <div class="pet-info">
+                    <h3>Buddy</h3>
+                    <p>Friendly 2-year-old Golden Retriever who loves playing fetch and cuddling.</p>
+                    <a href="adoption.html" class="adopt-button">Adopt Me</a>
+                </div>
+            </div>
+            
+            <!-- Pet Card 2 -->
+            <div class="pet-card">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=843&q=80" alt="Cat" class="pet-image">
+                <div class="pet-info">
+                    <h3>Luna</h3>
+                    <p>Gentle 3-year-old tabby cat who enjoys sunny spots and quiet evenings.</p>
+                    <a href="adoption.html" class="adopt-button">Adopt Me</a>
+                </div>
+            </div>
+            
+            <!-- Pet Card 3 -->
+            <div class="pet-card">
+                <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-4.0.3&auto=format&fit=crop&w=735&q=80" alt="Beagle" class="pet-image">
+                <div class="pet-info">
+                    <h3>Max</h3>
+                    <p>Energetic 1-year-old Beagle who loves exploring and going on adventures.</p>
+                    <a href="adoption.html" class="adopt-button">Adopt Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <i class="fas fa-home"></i>
+                <h3>500+</h3>
+                <p>Pets Adopted</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-heart"></i>
+                <h3>200+</h3>
+                <p>Volunteers</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-paw"></i>
+                <h3>50+</h3>
+                <p>Partner Shelters</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-paw"></i>
+                <h2>PawKind</h2>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="adoption.html">Adoption</a>
+                <a href="care-tips.html">Care Tips</a>
+                <a href="success-stories.html">Success Stories</a>
+                <a href="shelters.html">Find Shelters</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">© 2023 PawKind. All rights reserved. Made with <i class="fas fa-heart"></i> for animals.</p>
+        </div>
+    </footer>
+
+    <!-- Hidden Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-bottle" id="chatbot-bottle">
+            <div class="paw-prints">
+                <i class="fas fa-paw paw-print" style="top: 15px; left: 15px;"></i>
+                <i class="fas fa-paw paw-print" style="bottom: 15px; right: 15px;"></i>
+            </div>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <i class="fas fa-robot"></i>
+                <h3>PawBot - Your Pet Care Buddy</h3>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    Woof! I'm PawBot, your pet care buddy! How can I help you today?
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Ask me about pet care...">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="floating-paw" style="top: 20%; left: 5%; animation-delay: 0s;">🐾</div>
+    <div class="floating-paw" style="top: 60%; left: 10%; animation-delay: 1s;">❤️</div>
+    <div class="floating-paw" style="top: 40%; right: 8%; animation-delay: 2s;">🐶</div>
+    <div class="floating-paw" style="top: 80%; right: 5%; animation-delay: 3s;">🐱</div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>

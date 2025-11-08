@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Shelters - PawKind</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>PawKind</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><a href="care-tips.html">Care Tips</a></li>
+                    <li><a href="success-stories.html">Success Stories</a></li>
+                    <li><a href="shelters.html" class="active">Find Shelters</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Find Animal Shelters</h2>
+            <p>Locate nearby animal shelters and rescue organizations where you can adopt, volunteer, or donate.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">
+            <h2>Shelter Locator</h2>
+        </div>
+        <div class="map-section">
+            <p>Use our interactive map to find animal shelters and rescue centers near you. Together, we can help every animal find a loving home.</p>
+            <div class="map-placeholder">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>Interactive Map - Find Shelters Near You</p>
+                <p>(Google Maps integration would appear here)</p>
+                <div class="map-search">
+                    <input type="text" placeholder="Enter your location...">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shelter-list">
+        <div class="section-title">
+            <h2>Partner Shelters</h2>
+        </div>
+        <div class="shelter-cards">
+            <div class="shelter-card">
+                <h3>Paws & Love Animal Shelter</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Pet Street, Anytown</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-clock"></i> Mon-Sat: 9AM-6PM</p>
+                <a href="#" class="shelter-button">View Details</a>
+            </div>
+            
+            <div class="shelter-card">
+                <h3>Happy Tails Rescue</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 456 Animal Avenue, Somewhere</p>
+                <p><i class="fas fa-phone"></i> (555) 987-6543</p>
+                <p><i class="fas fa-clock"></i> Tue-Sun: 10AM-5PM</p>
+                <a href="#" class="shelter-button">View Details</a>
+            </div>
+            
+            <div class="shelter-card">
+                <h3>Forever Home Sanctuary</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 789 Companion Road, Everytown</p>
+                <p><i class="fas fa-phone"></i> (555) 456-7890</p>
+                <p><i class="fas fa-clock"></i> Wed-Mon: 8AM-7PM</p>
+                <a href="#" class="shelter-button">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-paw"></i>
+                <h2>PawKind</h2>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="adoption.html">Adoption</a>
+                <a href="care-tips.html">Care Tips</a>
+                <a href="success-stories.html">Success Stories</a>
+                <a href="shelters.html">Find Shelters</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">© 2023 PawKind. All rights reserved. Made with <i class="fas fa-heart"></i> for animals.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-bottle" id="chatbot-bottle">
+            <div class="paw-prints">
+                <i class="fas fa-paw paw-print" style="top: 15px; left: 15px;"></i>
+                <i class="fas fa-paw paw-print" style="bottom: 15px; right: 15px;"></i>
+            </div>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <i class="fas fa-robot"></i>
+                <h3>PawBot - Your Pet Care Buddy</h3>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    Woof! I'm PawBot, your pet care buddy! How can I help you today?
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Ask me about pet care...">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>

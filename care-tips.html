@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care Tips - PawKind</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>PawKind</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><a href="care-tips.html" class="active">Care Tips</a></li>
+                    <li><a href="success-stories.html">Success Stories</a></li>
+                    <li><a href="shelters.html">Find Shelters</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Pet Care Guide</h2>
+            <p>Essential tips and advice to keep your furry friends happy, healthy, and thriving.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">
+            <h2>Essential Care Tips</h2>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <i class="fas fa-bone"></i>
+                    <h3>Nutrition Matters</h3>
+                    <p>Provide a balanced diet appropriate for your pet's age, size, and health needs. Always ensure fresh water is available.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Regular Vet Visits</h3>
+                    <p>Schedule annual check-ups to keep your pet healthy. Don't forget vaccinations and preventive treatments.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-home"></i>
+                    <h3>Safe Environment</h3>
+                    <p>Create a safe, comfortable space for your pet. Remove hazards and provide toys for mental stimulation.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>Love and Attention</h3>
+                    <p>Spend quality time with your pet daily. Positive reinforcement and affection strengthen your bond.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-running"></i>
+                    <h3>Exercise & Play</h3>
+                    <p>Regular exercise keeps pets physically fit and mentally stimulated. Adjust activity levels based on breed and age.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-shower"></i>
+                    <h3>Grooming Basics</h3>
+                    <p>Regular brushing, bathing, and nail trimming are essential for your pet's hygiene and comfort.</p>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <div class="carousel-dot active" data-index="0"></div>
+                <div class="carousel-dot" data-index="1"></div>
+                <div class="carousel-dot" data-index="2"></div>
+                <div class="carousel-dot" data-index="3"></div>
+                <div class="carousel-dot" data-index="4"></div>
+                <div class="carousel-dot" data-index="5"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="care-categories">
+        <div class="section-title">
+            <h2>Care by Category</h2>
+        </div>
+        <div class="care-grid">
+            <div class="care-category">
+                <i class="fas fa-dog"></i>
+                <h3>Dog Care</h3>
+                <p>Training, exercise needs, breed-specific care, and health considerations for your canine companion.</p>
+            </div>
+            <div class="care-category">
+                <i class="fas fa-cat"></i>
+                <h3>Cat Care</h3>
+                <p>Litter training, environmental enrichment, grooming needs, and understanding feline behavior.</p>
+            </div>
+            <div class="care-category">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Health & Wellness</h3>
+                <p>Preventive care, recognizing illness signs, dental health, and emergency preparedness.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-paw"></i>
+                <h2>PawKind</h2>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="adoption.html">Adoption</a>
+                <a href="care-tips.html">Care Tips</a>
+                <a href="success-stories.html">Success Stories</a>
+                <a href="shelters.html">Find Shelters</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">© 2023 PawKind. All rights reserved. Made with <i class="fas fa-heart"></i> for animals.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-bottle" id="chatbot-bottle">
+            <div class="paw-prints">
+                <i class="fas fa-paw paw-print" style="top: 15px; left: 15px;"></i>
+                <i class="fas fa-paw paw-print" style="bottom: 15px; right: 15px;"></i>
+            </div>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <i class="fas fa-robot"></i>
+                <h3>PawBot - Your Pet Care Buddy</h3>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    Woof! I'm PawBot, your pet care buddy! How can I help you today?
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Ask me about pet care...">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+</html>
